@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    
+body { 
+    /* background-color: #f3efe5 ; */
+    background: url(fone1.jpg);
+
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: 100%;
+    color: #0f141e;
+    /* font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; */ 
+    font: normal 16px 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#one{
+    width:700px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.begin {
+    display: flex;
+}
+@media (max-width: 1000px) {
+    .begin {
+        display: block;
+    }
+    #one {
+        width: 500px;
+    }
+    
+}
+@media (max-width: 1700px) {
+    body {
+        background: url(fon.jpg);
+        background-attachment: fixed;
+        background-repeat: repeat-x;
+        background-size: 100%;
+    }
+}
+@media (max-width: 950px) {
+    .info {
+        margin-left: 10px;
+    }
+    .info h1 {
+        padding: 5px;
+    }
+    .there {
+        padding-left:5;
+    }
+}
+ /* Не работает хз почему*/
+
+
+
+.begin p{
+    color:#3d3f44;
+    margin: 5px;
+}
+.info {
+    margin-left: 40px;
+}
+.info h1 {
+    padding: 30px;
+}
+.telo{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;   
+    background:rgba(255, 254, 247, 0.8)
+}
+.telo h1{
+    margin-bottom: 8px;
+}
+.telo h2{
+    margin-bottom: 8px;
+}
+.mid{
+    margin-top: 20px;
+    background-color: rgb(204, 245, 245);
+    padding: 5px 20px;
+    border: 6px solid rgb(216, 228, 165);
+    border-radius: 15px;
+}
+.two{
+    border-radius: 5px;
+}
+.left{
+    margin-left: 5px;
+}
+.mid a{
+    text-decoration: none;
+    color: rgb(40, 42, 63);
+}
+.table h3 {
+    text-align: left;
+}
+.there {
+    padding-left:50px ;
+}
+.mid a:hover{
+    text-decoration: underline;
+}
+.mid a:visited{ 
+    color:rgb(110, 104, 104)
+}
+.histor{
+    margin-top: 10px;
+    background-color: #e9dec2 ;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+.history {
+    font-family: 'Times New Roman', Times, serif  ;
+    font-size: 20px;
+    color: #414040;
+    margin-top: 8px;
+}
+.textarea {
+    width: 400px;
+    box-sizing: border-box ;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #c0bdb5;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    max-width: 400px;
+}
+.geo {
+    display:flex;  
+}
+.geocard {
+  margin-left: auto;
+}
+.gis {
+    margin-bottom: 5px;
+}
+.ot {
+    cursor:pointer;
+}
+.btn {
+    background: #b6b5b2;
+    color: rgb(36, 35, 35);
+    padding: 10px  20px;
+    font-family: inherit;
+    cursor: pointer;
+    border: 0;
+}
+.btn:hover {
+    opacity: 0.6;
+}
+.position {
+    position: relative;
+    border: none;
+    padding: 20px;
+}
+.box img {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 50%;
+}
+/* .table th:nth-child(1),
+table th:nth-child(2)
+{
+    background: rgb(216, 181, 181);
+    color:aqua это обращение через дочерние псевдо селекторы
+} */
+/* .table th{
+    color: rgb(159, 30, 252);
+    это заголовки таблицы если понадобится
+} */
+
+
+
+
+
+
+/* a{   color: rgb(40, 42, 63);
+     text-decoration: none;
+    }
+a:hover{ 
+    text-decoration: underline;
+}
+
+
+
+
+.begin p{
+    color:#86898f;
+    margin: 5px;
+   
+}
+.begin{
+    margin-bottom: 30px;
+}
+
+.list h2{
+    padding: 0 20px;
+    margin-left: 0;
+
+    /* list-style: none;} */
+
+
+/* .telo{  
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
+}
+.geo {
+    padding: 0 ;
+    margin-top: 0;
+    list-style: none;
+} */ 
